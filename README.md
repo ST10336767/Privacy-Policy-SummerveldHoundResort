@@ -28,7 +28,7 @@ This repository contains a static website hosting the privacy policy for the Sum
 
 3. **Your site will be available at**:
    ```
-   https://your-username.github.io/repository-name
+   https://ST10336767.github.io/Privacy-Policy-SummerveldHoundResort
    ```
 
 4. **Custom domain (optional)**:
