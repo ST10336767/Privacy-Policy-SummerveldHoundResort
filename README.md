@@ -6,11 +6,11 @@ This repository contains a static website hosting the privacy policy for the Sum
 
 ```
 ├── index.html              # Main HTML file with privacy policy content
+├── account-deletion.html   # Account deletion information page
 ├── styles.css              # CSS styling for professional appearance
 ├── .github/workflows/      # GitHub Actions for automated deployment
 ├── _config.yml            # Jekyll configuration for GitHub Pages
 ├── web.config             # Azure IIS configuration
-├── azure-pipelines.yml    # Azure DevOps CI/CD pipeline
 ├── package.json           # Node.js dependencies and scripts
 └── README.md             # This file
 ```
@@ -28,7 +28,8 @@ This repository contains a static website hosting the privacy policy for the Sum
 
 3. **Your site will be available at**:
    ```
-   https://ST10336767.github.io/Privacy-Policy-SummerveldHoundResort
+   Privacy Policy: https://ST10336767.github.io/Privacy-Policy-SummerveldHoundResort
+   Account Deletion: https://ST10336767.github.io/Privacy-Policy-SummerveldHoundResort/account-deletion.html
    ```
 
 4. **Custom domain (optional)**:
@@ -109,12 +110,15 @@ This repository contains a static website hosting the privacy policy for the Sum
 - **Security Headers**: Security-focused configuration
 - **Print Friendly**: Optimized for printing
 - **Accessibility**: Proper heading structure and semantic markup
+- **Account Deletion Page**: Comprehensive information about data deletion
+- **Cross-linked Pages**: Easy navigation between privacy policy and account deletion
 
 ## 🔧 Customization
 
 ### Updating Content
 - Edit `index.html` to modify the privacy policy content
-- Update the "Last Updated" date in the header section
+- Edit `account-deletion.html` to modify the account deletion information
+- Update the "Last Updated" date in the header section of both pages
 
 ### Styling Changes
 - Modify `styles.css` to change colors, fonts, or layout
