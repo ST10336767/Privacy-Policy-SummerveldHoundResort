@@ -1,0 +1,25 @@
+{
+  "name": "summerveld-privacy-policy",
+  "version": "1.0.0",
+  "description": "Privacy Policy website for SummerVeld Hound Resort App",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8080",
+    "build": "echo 'Static site - no build required'",
+    "deploy": "echo 'Deploy using Azure CLI or Azure DevOps'"
+  },
+  "keywords": [
+    "privacy-policy",
+    "summerveld",
+    "hound-resort",
+    "static-website"
+  ],
+  "author": "SummerVeld Hound Resort",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

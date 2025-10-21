@@ -1,0 +1,40 @@
+# GitHub Pages Jekyll configuration
+# This file tells GitHub Pages to treat this as a Jekyll site
+
+# Site settings
+title: "SummerVeld Hound Resort - Privacy Policy"
+description: "Privacy Policy for the SummerVeld Hound Resort App"
+url: "https://your-username.github.io"
+baseurl: "/summerveld-privacy-policy"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Exclude files from Jekyll processing
+exclude:
+  - README.md
+  - .gitignore
+  - .github/
+  - node_modules/
+  - package.json
+  - package-lock.json
+  - azure-pipelines.yml
+  - web.config
+
+# Include files
+include:
+  - _config.yml
+
+# Collections
+collections:
+  - privacy-policy
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
